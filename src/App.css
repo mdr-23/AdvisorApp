@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Popins Bold";
+  src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Popins Bold Italic";
+  src: url(./assets/fonts/Poppins-BoldItalic.ttf);
+}
+
+.App {
+  font-family: "Popins Bold";
+  background-color:rgb(23,28,37) !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button{
+  background-color: mediumspringgreen !important;
+  border-color: mediumspringgreen !important;
+  border-radius: 30px !important;
+  padding: 10px !important;
+  position: relative;
+  top: 50px;
+}
+
+.card{
+  background-color: rgb(37,44,57);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.card-body{
+  color: white !important;
+}
+
+.card-title{
+  color: mediumspringgreen !important;
+  margin-top: 30px;
+}
+
+.card-footer{
+  background-color: transparent !important;
+}
